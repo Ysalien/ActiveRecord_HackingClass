@@ -1,4 +1,4 @@
-## Exercice du MOOCademy
+## Exercice du HackingClass
 
 Exercice réalisé dans le cadre de la semaine Rails (THP), par notre belle équipe :
 - [Ysaline Macé](https://github.com/Ysalien)
