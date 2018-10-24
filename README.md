@@ -12,8 +12,9 @@ Exercice réalisé dans le cadre de la semaine Rails / Back end (THP), par notre
 HackingClass est une base de données, réalisée à partir de rails, permettant d'accéder à des cours. Ces cours sont définis par un nom  et sont suivis par plusieurs élèves, mais ces derniers ne peuvent suivre qu'un seul cours.
 On retrouve alors deux model Cours (table cours) et User (table users). Leur index est lié sur cours.
 
-##### NB
-N'oubliez de faire un bundle install dans votre terminal !
-Les models se trouvent dans le sous-fichier model, dans app.
-Les tables se trouvent dans le fichier migrate, contenu dans db.
+La jointure est effectuée avec le t.belongs_to :nomdetonmodel, index: true dans la table visée et les belongs_to :nomdetonmodel et has_many :nomdetatable dans les models.
+
+#### NB
+
+N'oubliez de faire un bundle install dans votre terminal ! Les models se trouvent dans le sous-fichier model, dans app. Les tables se trouvent dans le fichier migrate, contenu dans db.
 
